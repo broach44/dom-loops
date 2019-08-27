@@ -25,7 +25,6 @@ const dinosaurs = [
 const dinoPrinter = (dinoArr) => {
     for (let i = 0; i < dinoArr.length; i++) {
         const dinos = dinoArr[i];
-
         const stringToPrint = `
         <div class="dino-card">
             <h3>${dinos.dinoType}</h3>
